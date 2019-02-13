@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="result">Result</string>
+    <string name="resultTv">Result will appear here... </string>
+
+
+    <string-array name="lengthUnits">
+        <item>Select</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Millimeter</item>
+        <item>KiloMeter</item>
+        <item>Feet</item>
+        <item>Mile</item>
+        <item>Inch</item>
+    </string-array>
+
+</resources>
