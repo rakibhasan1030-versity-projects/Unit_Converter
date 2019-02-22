@@ -181,7 +181,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
         //meter to...
         if (mToCm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mToCm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Meter = "+_userValue+" Centimeter");
             userInputET.setText("");
             mToCm = false;
@@ -189,7 +189,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mToMm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mToMm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Meter = "+_userValue+" Millimeter");
             userInputET.setText("");
             mToMm = false;
@@ -197,7 +197,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mToKm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mToKm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Meter = "+_userValue+" Kilometer");
             userInputET.setText("");
             mToKm = false;
@@ -205,7 +205,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mToFeet == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mToFeet(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Meter = "+_userValue+" Feet");
             userInputET.setText("");
             mToFeet = false;
@@ -213,7 +213,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mToMile == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mToMile(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Meter = "+_userValue+" Mile");
             userInputET.setText("");
             mToMile = false;
@@ -221,7 +221,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mToInch == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mToInch(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Meter = "+_userValue+" Inch");
             userInputET.setText("");
             mToInch = false;
@@ -232,7 +232,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
         //Centimeter to...
         else if (cmTom == true){
             String _userValue =String.valueOf( LengthCalculationProvider.cmToM(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Centimeter = "+_userValue+" Meter");
             userInputET.setText("");
             cmTom = false;
@@ -240,7 +240,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (cmToFeet == true){
             String _userValue =String.valueOf( LengthCalculationProvider.cmToFeet(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Centimeter = "+_userValue+" Feet");
             userInputET.setText("");
             cmToFeet = false;
@@ -248,7 +248,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (cmToInch == true){
             String _userValue =String.valueOf( LengthCalculationProvider.cmToInch(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Centimeter = "+_userValue+" Inch");
             userInputET.setText("");
             cmToInch = false;
@@ -256,7 +256,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (cmToKm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.cmToKm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Centimeter = "+_userValue+" Kilometer");
             userInputET.setText("");
             cmToKm = false;
@@ -264,7 +264,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (cmToMile == true){
             String _userValue =String.valueOf( LengthCalculationProvider.cmToMile(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Centimeter = "+_userValue+" Mile");
             userInputET.setText("");
             cmToMile = false;
@@ -272,7 +272,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (cmToMm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.cmToMm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Centimeter = "+_userValue+" Millimeter");
             userInputET.setText("");
             cmToMm = false;
@@ -284,7 +284,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
         //Millimeter to...
         else if (mmToM == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mmToM(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Millimeter = "+_userValue+" Meter");
             userInputET.setText("");
             mmToM = false;
@@ -292,7 +292,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mmToInch == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mmToInch(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Millimeter = "+_userValue+" Inch");
             userInputET.setText("");
             mmToInch = false;
@@ -300,7 +300,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mmToMile == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mmToMile(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Millimeter = "+_userValue+" Mile");
             userInputET.setText("");
             mmToMile = false;
@@ -308,7 +308,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mmToFeet == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mmToFeet(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Millimeter = "+_userValue+" Feet");
             userInputET.setText("");
             mmToFeet = false;
@@ -316,7 +316,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mmToKm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mmToKm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Millimeter = "+_userValue+" Kilometer");
             userInputET.setText("");
             mmToKm = false;
@@ -324,7 +324,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mmToCm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mmToCm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Millimeter = "+_userValue+" Centimeter");
             userInputET.setText("");
             mmToCm = false;
@@ -337,7 +337,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
         //KiloMeter to...
         else if (kmToM == true){
             String _userValue =String.valueOf( LengthCalculationProvider.kmToM(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Kilometer = "+_userValue+" Meter");
             userInputET.setText("");
             kmToM = false;
@@ -345,7 +345,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (kmToCm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.kmToCm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Kilometer = "+_userValue+" Centimeter");
             userInputET.setText("");
             kmToCm = false;
@@ -353,7 +353,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (kmToMm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.kmToMm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Kilometer = "+_userValue+" Millimeter");
             userInputET.setText("");
             kmToMm = false;
@@ -361,7 +361,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (kmToInch == true){
             String _userValue =String.valueOf( LengthCalculationProvider.kmToInch(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Kilometer = "+_userValue+" Inch");
             userInputET.setText("");
             kmToInch = false;
@@ -369,7 +369,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (kmToFeet == true){
             String _userValue =String.valueOf( LengthCalculationProvider.kmToFeet(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Kilometer = "+_userValue+" Feet");
             userInputET.setText("");
             kmToFeet = false;
@@ -377,7 +377,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (kmToMile == true){
             String _userValue =String.valueOf( LengthCalculationProvider.kmToMile(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Kilometer = "+_userValue+" Mile");
             userInputET.setText("");
             kmToMile = false;
@@ -389,7 +389,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
         //Inch to...
         else if (inchToM == true){
             String _userValue =String.valueOf( LengthCalculationProvider.inchToM(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Inch = "+_userValue+" Meter");
             userInputET.setText("");
             inchToM = false;
@@ -397,7 +397,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (inchToCm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.inchToCm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Inch = "+_userValue+" Centimeter");
             userInputET.setText("");
             inchToCm = false;
@@ -405,7 +405,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (inchToMm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.inchToMm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Inch = "+_userValue+" Millimeter");
             userInputET.setText("");
             inchToMm = false;
@@ -413,7 +413,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (inchToKm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.inchToKm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Inch = "+_userValue+" Kilometer");
             userInputET.setText("");
             inchToKm= false;
@@ -421,7 +421,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (inchToMile == true){
             String _userValue =String.valueOf( LengthCalculationProvider.inchToMile(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Inch = "+_userValue+" Mile");
             userInputET.setText("");
             inchToMile = false;
@@ -429,7 +429,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (inchToFeet == true){
             String _userValue =String.valueOf( LengthCalculationProvider.inchToFeet(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Inch = "+_userValue+" Feet");
             userInputET.setText("");
             mmToCm = false;
@@ -441,7 +441,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
         //Feet to...
         else if (feetToM == true){
             String _userValue =String.valueOf( LengthCalculationProvider.feetToM(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Feet = "+_userValue+" Meter");
             userInputET.setText("");
             feetToM = false;
@@ -449,7 +449,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (feetToCm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.feetToCm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Feet = "+_userValue+" Centimeter");
             userInputET.setText("");
             feetToCm = false;
@@ -457,7 +457,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (feetToMm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.feetToMm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Feet = "+_userValue+" Millimeter");
             userInputET.setText("");
             feetToMm = false;
@@ -465,7 +465,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (feetToInch == true){
             String _userValue =String.valueOf( LengthCalculationProvider.feetToInch(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Feet = "+_userValue+" Inch");
             userInputET.setText("");
             feetToInch= false;
@@ -473,7 +473,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (feetToKm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.feetToKm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Feet = "+_userValue+" Kilometer");
             userInputET.setText("");
             feetToKm = false;
@@ -481,7 +481,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (feetToMile == true){
             String _userValue =String.valueOf( LengthCalculationProvider.feetToMile(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Feet = "+_userValue+" Mile");
             userInputET.setText("");
             feetToMile = false;
@@ -493,7 +493,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
         //Feet to...
         else if (mileToM == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mileToM(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Mile = "+_userValue+" Meter");
             userInputET.setText("");
             mileToM = false;
@@ -501,7 +501,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mileToCm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mileToCm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Mile = "+_userValue+" Centimeter");
             userInputET.setText("");
             mileToCm = false;
@@ -509,7 +509,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mileToKm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mileToKm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Mile = "+_userValue+" Kilometer");
             userInputET.setText("");
             mileToKm = false;
@@ -517,7 +517,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mileToInch == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mileToInch(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Mile = "+_userValue+" Inch");
             userInputET.setText("");
             mileToInch= false;
@@ -525,7 +525,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mileToFeet == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mileToFeet(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Mile = "+_userValue+" Feet");
             userInputET.setText("");
             mileToFeet = false;
@@ -533,7 +533,7 @@ public class LengthActivity extends AppCompatActivity implements AdapterView.OnI
             lengthToSpinner.setSelection(0);
         }else if (mileToMm == true){
             String _userValue =String.valueOf( LengthCalculationProvider.mileToMm(_inputValue));
-            mainResultTV.setText(_userValue);
+            mainResultTV.setText("Result : " + _userValue);
             resultHintTV.setText(_inputValue+" Mile = "+_userValue+" Millimeter");
             userInputET.setText("");
             mileToMm = false;
